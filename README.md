@@ -1,7 +1,7 @@
 # proj-modeva
 
 <!-- some description about the project -->
-
+contributors: aysipixie, resatu
 ## Installation
 
 ```bash
