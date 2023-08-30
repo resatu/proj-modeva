@@ -1,14 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="assets/scripts/main.js" defer></script>
 </head>
+
 <body>
-    <nav class="navbar"></nav>
-    <main class=""></main>
+    <div class="hero">
+        <div class="top">
+            <div class="top-promo">
+                <div class="top-left"></div>
+                <div class="top-promo_text">
+                    <p class="top-promo_text-light">Discount 20% For New Member:</p>
+                    <p class="top-promo_text-bold">ONLY FOR Today</p>
+                    <p class="top-promo_text-light">!!!</p>
+                </div>
+                <div class="top-promo_close">
+                    X
+                    <!-- <img src="assets/icons/x-mark.svg" alt="close"> -->
+                </div>
+            </div>
+            <nav class="navbar">
+                <div class="navbar_logo">
+                    <span style="color: #8b4513">M</span>ODEVA
+                </div>
+                <div class="navbar_menu">
+                    <div class="navbar_menu-item">
+                        Catalog
+                        <img src="assets/icons/chevron-down.svg" alt="catalog-hover" />
+                    </div>
+                    <div class="navbar_menu-item">Sale</div>
+                    <div class="navbar_menu-item">New Arrival</div>
+                    <div class="navbar_menu-item">About</div>
+                </div>
+                <div class="navbar_right">
+                    <div class="navbar_search">
+                        <img src="assets/icons/magnifying-glass.svg" alt="search" />
+                        <input class="navbar_search-input" type="text" placeholder="Search" />
+                    </div>
+                    <div class="navbar_icon-ctas">
+                        <div class="navbar_icon">
+                            <img src="assets/icons/shopping-cart.svg" alt="cart" />
+                        </div>
+                        <div class="navbar_icon">
+                            <img src="assets/icons/user.svg" alt="user" />
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar_mobile" style="visibility: hidden;">
+                    <div class="navbar_menu-item">
+                        Menu
+                        <img src="assets/icons/chevron-down.svg" alt="catalog-hover" />
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="bottom">
+            <div class="bottom_left"></div>
+            <div class="bottom_center">
+                Scroll Down
+                <img src="assets/icons/chevron-double-down.svg" alt="scroll-down" />
+            </div>
+            <div class="bottom_right">
+                <div class="product-card">
+                    <div class="product-card_image"></div>
+                    <div class="product-card_content">
+                        <div class="product-card_content-title">Product Name in Here</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                        <div class="product-card_content-cta">SHOP NOW</div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card_content">
+                        <div class="product-card_content-title">Product Name in Here</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                        <div class="product-card_content-cta">SHOP NOW</div>
+                    </div>
+                    <div class="product-card_image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="category">
+            <div class="category_left">
+                <div class="category_card" style="background-image: url(assets/images/formal-woman.jpeg);">Formal Woman
+                </div>
+                <div class="category_card" style="background-image: url(assets/images/formal-man.jpeg);">Formal Man
+                </div>
+            </div>
+            <div class="category_right">
+                <div class="category_card" style="background-image: url(assets/images/casual.jpeg);">Casual Style</div>
+            </div>
+        </div>
+
+        <div class="featured-products">
+            <div class="featured-products_title">the best dress for the best woman</div>
+            <div class="featured-products_list">
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/w1.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/w2.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/w3.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/w4.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="see-more"> See more <img src="assets/icons/arrow-small-right.svg" alt=""></div>
+        </div>
+
+        <div class="featured-products">
+            <div class="featured-products_title">Best outfit for your happiness</div>
+            <div class="featured-products_list">
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/h1.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/h2.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/h3.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+                <div class="featured-products_card">
+                    <div class="featured-products_card-image"
+                        style="background-image: url(assets/images/products/h4.png);">
+                        <div class="featured-products_card-image-rating"> <img src="assets/icons/star.svg"
+                                alt="rating" /> 4.95</div>
+                    </div>
+                    <div class="product-card_vertical-content">
+                        <div class="product-card_content-category">Product category</div>
+                        <div class="product-card_content-title">Product Name</div>
+                        <div class="product-card_content-sku">IDR 300.000</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="see-more"> See more <img src="assets/icons/arrow-small-right.svg" alt=""></div>
+        </div>
+
+        <div class="customer-service">
+            <div class="customer-service_feature-vertical">
+                <div class="customer-service_feature-icon">
+                    <img src="assets/icons/hand-thumb-up.svg" alt="satisfaction" />
+                </div>
+                <div class="customer-service_feature-title">100% Satisfaction Guaranteed
+                </div>
+                <div class="customer-service_feature-description">Lorem ipsum dolor sit amet consectetur. Suspendisse
+                    laoreet scelerisque morbi vulputate. Quisque bibendum eget id diam elementum fringilla duis. </div>
+            </div>
+            <div class="customer-service_feature-horizontal">
+                <div class="customer-service_feature-horizontal-item">
+                    <div class="customer-service_feature-icon">
+                        <img src="assets/icons/phone.svg" alt="online-service" />
+                    </div>
+                    <div class="customer-service_feature-horizontal-item-content">
+                        <div class="customer-service_feature-title">24/7 Online Service
+                        </div>
+                        <div class="customer-service_feature-description">Lorem ipsum dolor sit amet consectetur.
+                            Suspendisse laoreet scelerisque morbi vulputate. Quisque bibendum eget id diam elementum
+                            fringilla duis. </div>
+                    </div>
+                </div>
+                <div class="customer-service_feature-horizontal-item">
+                    <div class="customer-service_feature-icon">
+                        <img src="assets/icons/rocket-launch.svg" alt="fast-delivery" />
+                    </div>
+                    <div class="customer-service_feature-horizontal-item-content">
+                        <div class="customer-service_feature-title">Fast Delivery
+                        </div>
+                        <div class="customer-service_feature-description">Lorem ipsum dolor sit amet consectetur.
+                            Suspendisse laoreet scelerisque morbi vulputate. Quisque bibendum eget id diam elementum
+                            fringilla duis. </div>
+                    </div>
+                </div>
+            </div>
+            <div class="customer-service_feature-vertical">
+                <div class="customer-service_feature-icon">
+                    <img src="assets/icons/hand-thumb-up.svg" alt="satisfaction" />
+                </div>
+                <div class="customer-service_feature-title">Payment With Secure System
+                </div>
+                <div class="customer-service_feature-description">Lorem ipsum dolor sit amet consectetur. Suspendisse
+                    laoreet
+                    scelerisque morbi vulputate. Quisque bibendum eget id diam elementum fringilla duis. </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="footer_top-left">
+                <div class="navbar_logo">MODEVA</div>
+                <div class="footer_top-left-list">
+                    <div class="footer_top-left-l-list">
+                        <p>WhatsApp</p>
+                        <p>Email</p>
+                        <p>Address</p>
+                    </div>
+                    <div class="footer_top-left-r-list">
+                        <p>: +62 859 9999 999</p>
+                        <p>: hello@modeva.com</p>
+                        <p>: Lorem ipsum street Block B Number 08, Jakarta, Indonesia, 12345</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer_top-right">
+                <div class="footer_item-list">
+                    <p style="font-weight: 700; font-size: 14px;">Menu</p>
+                    <p>Sale</p>
+                    <p>New Arrivals</p>
+                    <p>Formal Men</p>
+                    <p>Formal Women</p>
+                    <p>Casual Men</p>
+                    <p>Casual Women</p>
+                </div>
+                <div class="footer_item-list">
+                    <p style="font-weight: 700; font-size: 14px;">Menu</p>
+                    <p>Sale</p>
+                    <p>New Arrivals</p>
+                    <p>Formal Men</p>
+                    <p>Formal Women</p>
+                    <p>Casual Men</p>
+                    <p>Casual Women</p>
+                </div>
+                <div class="footer_item-list">
+                    <p style="font-weight: 700; font-size: 14px;">Menu</p>
+                    <p>Sale</p>
+                    <p>New Arrivals</p>
+                    <p>Formal Men</p>
+                    <p>Formal Women</p>
+                    <p>Casual Men</p>
+                    <p>Casual Women</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p>All rights reserved</p>
+            <p>Copyright 2023 By Modeva Fashion</p>
+        </div>
+
+    </footer>
 </body>
+
 </html>
